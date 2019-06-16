@@ -1,0 +1,99 @@
+*{
+	max-width: 100%
+	height:auto;
+	font-family: 微軟正黑體;
+}
+
+body{
+	background-color: #F4EFFF;
+}
+
+#top_img{
+	background: -webkit-linear-gradient(left,#A14019,#5F2517);
+  background: -o-linear-gradient(right,#A14019,#5F2517);
+  background: -moz-linear-gradient(right,#A14019,#5F2517);
+  background: linear-gradient(to right,#A14019,#5F2517);
+  background-repeat: round;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.navbar-brand{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar{
+	background-image: url(image/image1.jpg);
+}
+
+.nav-item{
+	margin-right: 30px;
+}
+
+.navbar-nav{
+	bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.img-fluid{
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+}
+
+h1{
+	color:red;
+}
+
+.p{
+	color: #777;
+	line-height: 35px;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.back{
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	position: relative;
+	background: #eee;
+	margin-top: 30px;
+	background-color: #005629;
+}
+.back a{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 28px;
+	margin: auto;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer {
+	background-image: url(image/image1.jpg);
+	color: white;
+	text-align: center;
+	border-top: 2px solid #F2F274;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+.p1{
+	color: #00487C;
+	line-height: 35px;
+	font-size: 23px;
+	font-weight: bold;
+}

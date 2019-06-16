@@ -1,0 +1,142 @@
+*{
+	max-width: 100%
+	height:auto;
+	font-family: 微軟正黑體;
+}
+
+body{
+	background-color: #F4EFFF;
+}
+
+#top_img{
+  background: -webkit-linear-gradient(left,#A14019,#5F2517);
+  background: -o-linear-gradient(right,#A14019,#5F2517);
+  background: -moz-linear-gradient(right,#A14019,#5F2517);
+  background: linear-gradient(to right,#A14019,#5F2517);
+  background-repeat: round;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.navbar-brand{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar{
+	background-image: url(image/image1.jpg);
+}
+
+.nav-item{
+	margin-right: 30px;
+}
+
+.navbar-nav{
+	bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.img-fluid{
+	max-width: 100%;
+	min-width: 100%;
+	height: auto;
+}
+
+h1{
+	text-align: center;
+	padding-top: 20px;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+}
+
+.title{
+	color:#FA8072;
+	font-weight: bold;
+}
+
+.toback{
+	text-decoration: none;
+	color:black;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	right: 15vw;
+}
+
+.toback:hover{
+	text-decoration: none;
+}
+
+.brand{
+	font-size: 2.5vw;
+	font-weight: bold;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+.back{
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	position: relative;
+	background: #eee;
+	margin-top: 30px;
+	background-color: #005629;
+
+}
+.back a{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	height: 28px;
+	margin: auto;
+	color: white;
+	font-weight: bold;
+}
+
+
+.p{
+	color: #777;
+	line-height: 40px;
+	font-size: 21px;
+	font-weight: bold;
+	margin:auto 15px;
+}
+
+.footer {
+	background-image: url(image/image1.jpg);
+	color: white;
+	text-align: center;
+	border-top: 2px solid #F2F274;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+}

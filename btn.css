@@ -1,0 +1,250 @@
+.btn {
+  text-align: center;
+  font-family: Arial;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  width: 150px;
+  height:150px;
+  line-height: 1.428571429;
+  border-radius: 105px;
+  position: relative;
+  background-color: #00A0D6;
+  transition: background-color 0.6s;
+  margin:20px 25px 10px 5px;
+  box-shadow:0 0 15px 0 rgba(200,200,10,.9),inset 0 0 15px 0 rgba(200,200,10,.9);
+  background: -webkit-linear-gradient(yellow,green);
+  background: -o-linear-gradient(yellow,green);
+  background: -moz-linear-gradient(yellow,green);
+  background: linear-gradient(yellow,green);
+}
+
+.bottom{
+  font-size: 30px;
+}
+
+
+.up{
+  background-image: url(image/cloud.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+}
+
+
+.tit{
+  background-color: #491104;
+  color:white;
+  }
+#top_img{
+  background: -webkit-linear-gradient(left,#A14019,#5F2517);
+  background: -o-linear-gradient(right,#A14019,#5F2517);
+  background: -moz-linear-gradient(right,#A14019,#5F2517);
+  background: linear-gradient(to right,#A14019,#5F2517);
+  background-repeat: round;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.navbar-brand{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav-link{
+  font-size:20px;
+}
+.navbar{
+  background-image: url(image/image1.jpg);
+}
+
+.nav-item{
+  margin-right: 30px;
+}
+
+.navbar-nav{
+  bottom: 10px;
+
+
+  font-weight: bold;
+}
+
+.btn{
+  overflow:hidden;
+}
+
+.btn:hover {
+  background-color: #007DA7;
+}
+
+.h2{
+  color:white;
+}
+
+.content {
+  position: absolute;
+  width: 102px;
+  height: 150px;
+  left: 23px;
+  text-align: center;
+  line-height: 200px;
+  /*最後才加上的動畫效果*/
+  /*transition: top 0.3s;*/
+  transition: top 0.5s;
+
+}
+.top {
+  top: -10px;
+}
+
+.btn:hover .top {
+  top: -110px;
+}
+
+.bottom {
+  top: 110px;
+}
+
+.btn:hover .bottom {
+  top: -20px;
+}
+
+body{
+  background:#fff url(image/p.jpg) center center fixed no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  font-family: 微軟正黑體;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+}
+a:hover{
+  text-decoration:none;
+  color:white;
+}
+
+.badge{
+  font-size: 30px;
+  margin:10px 10px 10px 6px;
+}
+
+h2{
+  color:black;
+}
+p{
+  font-size: 30px;
+  text-align:left;
+  background-color: rgba(40,10,40,0.8);
+  color: white;
+  
+}
+.qq{
+  border:15px solid #E8D2A1;
+
+}
+
+
+.container{
+  margin:20px auto auto auto;
+}
+
+.footer {
+  background-image: url(image/image1.jpg);
+  color: white;
+  text-align: center;
+  border-top: 2px solid #F2F274;
+}
+.b{
+  width:100px;
+  height:55px;
+  background:rgba(255,0,250,1);
+  position:relative;
+  margin-right: 48px;  
+  
+}
+.b::after{
+  content:'';
+  width:0;
+  height:0;
+  border-width:25px;
+  border-style:solid;
+  position:absolute;
+  top:0;
+  right:-50px;
+  border-color:rgba(255,0,250,0) rgba(255,0,250,0) rgba(255,0,250,0) rgba(255,0,250,1);
+  /* 上右下三個邊的邊框顏色是透明的 */
+
+}
+.d{
+  width:100px;
+  height:55px;
+  background:rgba(255,0,250,1);
+  position:relative;
+  margin-left: 48px;  
+}
+.d::after{
+  content:'';
+  width:0;
+  height:0;
+  border-width:25px;
+  border-style:solid;
+  position:absolute;
+  top:0;
+  left:-50px;
+  border-color:rgba(255,0,250,0) rgba(255,0,250,1) rgba(255,0,250,0) rgba(255,0,250,0);
+  /* 上右下三個邊的邊框顏色是透明的 */
+}
+
+.learfix{
+  font-size:28px;
+
+}
+
+@media (max-width: 780px) {
+  .btn-circle {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    padding: 12px 8px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 45px;
+    margin: 10px;
+  }
+  .badge{
+    font-size: 20px;
+    margin:4px 1px 4px 1px;
+  }
+  p{
+    font-size:20px;
+  }
+
+  .content {
+    position: absolute;
+    width: 60px;
+    height: 100px;
+    left: 15px;
+    text-align: center;
+    line-height: 130px;
+    /*最後才加上的動畫效果*/
+    /*transition: top 0.3s;*/
+    transition: top 0.5s;
+  }
+  .btn {
+    
+    font-size: 10px;
+    
+    width: 90px;
+    height:90px;
+  }
+  .bottom{
+    font-size: 18px;
+  }
+  
+}
